@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./public/css/style.css">
+    <meta name="theme-color" content="#000">
+    <title>Online Banking | bank.alphas.cyou</title>
+</head>
+
+<body>
+    <div class="app">
+        <div class="header">
+            <div class="logo">
+                <a class="ignore" href="./index.html"><img src="./public/img/logo_d.svg"></a>
+                <div>SAHPLA <span>bank</span></div>
+            </div>
+            <a href="./cards.html">Cards</a>
+            <a href="./investments.html">Investments</a>
+            <a class="premium" href="./premium.html">Premium</a>
+            <div class="login">
+                <!-- <a href="./banking.html">Online banking</a> -->
+            </div>
+        </div>
+        <div class="content">
+            <div class="container full">
+                <img src="./public/img/rocket.png" alt="">
+                <h1>Investing is easy</h1>
+                <p>Just follow our step by step guide and<br>get your new home for money</p>
+            </div>
+            <div class="container big flex">
+                <div class="container">
+                    <img src="./public/img/btc.svg" alt="">
+                    <h1>Exchange to Bitcoin</h1>
+                    <p>Invest in btc just in seconds</p>
+                    <div class="graph">
+                        <h2 class="asset-price" id="btcPrice"></h2>
+                        <canvas id="btcChart"></canvas>
+                    </div>
+                </div>
+                <div class="container right">
+                    <img src="./public/img/eth.svg" alt="">
+                    <h1>Exchange to Ethereum</h1>
+                    <p>Invest in eth just in seconds</p>
+                    <div class="graph">
+                        <h2 class="asset-price" id="ethPrice"></h2>
+                        <canvas id="ethereumChart"></canvas>
+                    </div>
+                </div>
+            </div>
+            <div class="container full">
+                <img src="./public/img/diamond.png" alt="">
+                <h3>Get you free 1 Bitcoin for start</h3>
+                <br>
+                <a>Start investing</a>
+            </div>
+        </div>
+        <div class="footer">
+            <div class="app-ad">
+                <div>
+                    <img class="mobile-logo" src="./public/img/logo_m.png" alt="Logo">
+                    <h2>Security and control at your fingertips</h2>
+                    <div class="logo-text">SAHPLA <span>Mobile</span></div>
+                    <img class="play-badge" src="./public/img/google-play-badge.png" alt="play-badge">
+                    <img class="appstore-badge" src="./public/img/download_on_the_appstore.svg" alt="appstore-badge">
+                </div>
+                <img class="iphone" src="./public/img/iphone.png" alt="iphone">
+            </div>
+            <div class="bottom-items">
+                <a href="mailto:support@alphas.cyou">Contact us</a>
+                <div class="trademarks">
+                    <p>&copy; 2022 AlphaS</p>
+                    <p class="gray">App Store and Apple logo® are trademarks of Apple Inc.</p>
+                    <p class="gray">Google Play and Google Play logo are trademarks of Google LLC.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="./public/js/chart.bundle.min.js"></script>
+    <script src="./public/js/charts-invest.js"></script>
+    <script src="./public/js/onscroll.js"></script>
+    <script src="./public/js/randombg.js"></script>
+</body>
+
+</html>
